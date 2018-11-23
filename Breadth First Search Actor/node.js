@@ -15,7 +15,31 @@ node.prototype.addEdge = function(neighbour){
 
 
 data = {
-    "movies": [{
+    "movies": [
+      {
+            "title": "Titanic",
+            "cast":["Leonardo DiCaprio",
+                    "Kate Winslet",
+                    "Billy Zane",
+                    "Kathy Bates",
+                    "Frances Fisher",
+                    "Bernard Hill",
+                    "Jonathan Hyde",
+              ]
+      },
+      "movies": [
+      {
+            "title": "Avengers",
+            "cast":["Robert Downey Jr.",
+                    "Chris Evans",
+                    "Mark Ruffalo",
+                    "Scarlett Johansson",
+                    "Tom Hiddleston",
+                    "Samuel L. Jackson",
+                    "Paul Bettany-Jarvis (voice)",
+              ]
+      },
+      {
             "title": "Diner",
             "cast": [
                 "Steve Guttenberg",
